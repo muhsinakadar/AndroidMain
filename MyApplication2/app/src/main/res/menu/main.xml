@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title=""
+        app:showAsAction="always">
+    <menu>
+        <item
+            android:id="@+id/action_profile"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/action_profile"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/action_settings"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/action_account"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/action_account"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/action_cart"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/action_cart"
+            app:showAsAction="ifRoom"/>
+
+    </menu>
+    </item>
+
+
+
+
+
+
+</menu>
